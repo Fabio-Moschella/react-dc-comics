@@ -33,7 +33,7 @@ img {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-around;
   row-gap: 1rem;
   margin-left: -0.5rem;
   margin-right: -0.5rem;
@@ -63,6 +63,15 @@ img {
   width: calc(100% / 5);
 }
 /*HEADER*/
-.dc-logo {
-  background-image: url(src\assets\image\dc-logo.png);
+header {
+  height: 100px;
+}
+nav {
+  height: 100px;
+}
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
