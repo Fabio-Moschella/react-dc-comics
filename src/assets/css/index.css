@@ -84,13 +84,35 @@ nav {
   vertical-align: middle;
 }
 /*MAIN*/
+.background-black {
+  background-color: black;
+}
 .content-sec {
   height: 150px;
-  background-color: black;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .title-content {
   color: white;
+}
+.background-blue {
+  background-color: #0282f9;
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.merchandise-sec {
+  display: flex;
+  justify-content: space-around;
+}
+figure {
+  display: flex;
+
+  align-items: center;
+}
+.logo-merchandise {
+  width: 20%;
 }

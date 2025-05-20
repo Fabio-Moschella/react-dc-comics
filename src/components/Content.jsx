@@ -1,9 +1,11 @@
 export default function Content() {
   return (
-    <section className="content-sec">
+    <div className="background-black">
       <div className="container">
-        <h1 className="title-content">-- Content goes here --</h1>
+        <section className="content-sec">
+          <h1 className="title-content">-- Content goes here --</h1>
+        </section>
       </div>
-    </section>
+    </div>
   );
 }
