@@ -14,9 +14,6 @@ a {
   color: inherit;
 }
 
-img {
-  max-width: 100%;
-}
 .debug,
 .debug * {
   min-height: 50px;
@@ -63,15 +60,26 @@ img {
   width: calc(100% / 5);
 }
 /*HEADER*/
-header {
-  height: 100px;
+#page-header {
+  height: 150px;
+}
+#page-header .background-black {
+  height: 20%;
+  background-color: black;
 }
 nav {
-  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
 }
 .navbar-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1rem;
+}
+.dc-logo {
+  width: 70%;
+  vertical-align: middle;
 }

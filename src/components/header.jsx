@@ -1,10 +1,12 @@
 export default function Header() {
   return (
-    <header>
-      <nav>
-        <div className="container">
-          <img src="/dc-logo.png" alt="" />
-
+    <header id="page-header">
+      <div className="background-black"></div>
+      <div className="container">
+        <nav>
+          <div>
+            <img className="dc-logo" src="/dc-logo.png" alt="" />
+          </div>
           <ul className="navbar-links">
             <li>
               <a href="#">characther</a>
@@ -37,8 +39,8 @@ export default function Header() {
               <a href="#">shop</a>
             </li>
           </ul>
-        </div>
-      </nav>
+        </nav>
+      </div>
     </header>
   );
 }
