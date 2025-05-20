@@ -83,3 +83,14 @@ nav {
   width: 70%;
   vertical-align: middle;
 }
+/*MAIN*/
+.content-sec {
+  height: 150px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title-content {
+  color: white;
+}
