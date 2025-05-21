@@ -104,15 +104,52 @@ nav {
   align-items: center;
 }
 
-.merchandise-sec {
+#merchandise-sec {
   display: flex;
   justify-content: space-around;
 }
 figure {
   display: flex;
-
   align-items: center;
 }
+
 .logo-merchandise {
-  width: 20%;
+  width: 30%;
+  padding: 0px 10px;
+}
+
+#merchandise-sec > figure > span {
+  color: white;
+}
+
+/*TERMS-SECTION*/
+.bg-image {
+  background-image: url(../../../public/dc-logo-bg.png),
+    url(../../../public/footer-bg.jpg);
+  background-repeat: no-repeat, repeat;
+  background-position: 80% 30%, top left;
+}
+
+#terms-sec {
+  display: flex;
+  flex-wrap: wrap;
+}
+#terms-sec .terms-column {
+  color: white;
+
+  margin-right: 20px;
+}
+
+#terms-sec .terms-column a {
+  color: #b0b0b0;
+  text-decoration: none;
+  font-size: 14px;
+}
+#terms-sec .terms-column li {
+  margin-bottom: 8px;
+}
+#terms-sec .terms-column h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  margin-top: 35px;
 }
