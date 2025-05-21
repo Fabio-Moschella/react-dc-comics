@@ -153,3 +153,24 @@ figure {
   margin-bottom: 15px;
   margin-top: 35px;
 }
+/*ALERT*/
+.alert {
+  border: currentColor 1px solid;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  margin-bottom: 10px;
+}
+.alert.alert.alert-info {
+  background-color: black;
+  color: white;
+}
+
+.alert.alert.alert-error {
+  background-color: rgb(95, 0, 0);
+  color: rgb(255, 65, 65);
+}
+
+.alert.alert.alert-success {
+  background-color: rgb(19, 107, 1);
+  color: rgb(5, 241, 36);
+}
