@@ -8,8 +8,9 @@ export default function Main() {
     <>
       <Alert type="error" text="LIST ERROR" />
       <Alert>
-        <h1>CIAO</h1>
+        <h1>ATTENZION STAMM P ZUMPAAA`</h1>
       </Alert>
+
       <Content />
       <Merchandise />
       <Termsofthesite />
