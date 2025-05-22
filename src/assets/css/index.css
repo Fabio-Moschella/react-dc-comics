@@ -93,8 +93,6 @@ nav {
   background-color: black;
 }
 .content-sec {
-  height: 150px;
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -178,4 +176,26 @@ figure {
 .alert.alert.alert-success {
   background-color: rgb(19, 107, 1);
   color: rgb(5, 241, 36);
+}
+/*CARD*/
+.card-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.card {
+  width: 150px;
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  padding: 20px;
 }
